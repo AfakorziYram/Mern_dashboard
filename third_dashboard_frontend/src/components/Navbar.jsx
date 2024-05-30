@@ -7,10 +7,10 @@ import {
   SettingsOutlined,
   ArrowDropDownOutlined,
 } from "@mui/icons-material";
-import FlexBetween from "components/FlexBetween";
+import FlexBetween from "../components/FlexBetween";
 import { useDispatch } from "react-redux";
-import { setMode } from "state";
-import profileImage from "assets/profile.jpeg";
+import { setMode } from "../states";
+import profileImage from "../assets/whatsappyr.jpg";
 import {
   AppBar,
   Button,

@@ -1,7 +1,7 @@
 import React from "react";
-import { ResponsivePie } from "@nivo/pie";
+//import { ResponsivePie } from "nivo/lib/components/charts/pie";
 import { Box, Typography, useTheme } from "@mui/material";
-import { useGetSalesQuery } from "state/api";
+import { useGetSalesQuery } from "../../src/states/api";
 
 const BreakdownChart = ({ isDashboard = false }) => {
   const { data, isLoading } = useGetSalesQuery();
