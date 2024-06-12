@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   Box,
   Divider,
@@ -30,7 +30,7 @@ import {
 } from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import FlexBetween from "./FlexBetween";
+import FlexBetween from "../components/FlexBetween";
 import profileImage from "../assets/whatsappyr.jpg";
 
 const navItems = [
@@ -132,7 +132,7 @@ const Sidebar = ({
               <FlexBetween color={theme.palette.secondary.main}>
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
-                    ECOMVISION
+                    FINANCEAPP
                   </Typography>
                 </Box>
                 {!isNonMobile && (
@@ -193,7 +193,7 @@ const Sidebar = ({
             </List>
           </Box>
 
-          <Box position="absolute" bottom="2rem">
+          <Box position="" bottom="2rem">
             <Divider />
             <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
               <Box
